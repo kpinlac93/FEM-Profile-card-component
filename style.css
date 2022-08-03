@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+}
+body {
+    background-image: url("images/bg-pattern-top.svg");
+    background-position: left -350px top -500px;
+    background-color: hsl(185, 75%, 39%);
+}
+.card {
+    width: 350px;
+    height: 375px;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.card .header {
+    background-image: url("images/bg-pattern-card.svg");
+    background-size: contain;
+    height: 140px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.card .avatar {
+    background-image: url(images/image-victor.jpg);
+    width: 96px;
+    height: 96px;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: -60px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 10;
+    border: 7px solid white;
+}
+.card .info {
+    text-align: center;
+    margin-top: 15px;
+}
+.info h1 {
+    font-size: 1.2em;
+    letter-spacing: 0.2px;
+}
+.info span {
+    margin-left: 8px;
+    color: rgba(0, 0, 0, 0.452);
+    font-size: 1.1em;
+}
+.info p {
+    color: rgba(0, 0, 0, 0.466);
+    font-size: 0.85em;
+    margin-top: 13px;
+    margin-bottom: 35px;
+}
+
+
+.stats {
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.192);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+.stats p {
+    margin-top: 10px;
+    font-size: 0.7em;
+    letter-spacing: 1.5px;
+}
